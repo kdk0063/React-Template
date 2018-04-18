@@ -1,0 +1,44 @@
+.skills { 
+    .icons {
+        height: 50px;  
+        margin-left: 30px;  
+        margin-right: 30px;      
+    }
+
+    .html-icons{
+        margin-left: 20px;
+        height: 35px;
+    }
+
+    .css-icons{
+        height: 35px;
+        margin-right: 20px;
+    }
+
+    .progress{
+        width: 500px;
+    }
+
+    .reactJS path {
+        fill: rgb(97, 216, 244);
+    }
+
+    .bootsrap path {
+        fill: rgb(91, 66, 130);
+    }
+
+    .frontend-skills{
+        margin-bottom: 20px;
+    }
+
+    .card {
+        background-color: #fff;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+        margin: 25px auto;     
+        width: 700px;     
+    }
+
+    .card-title {
+        text-align: center;
+    }   
+}

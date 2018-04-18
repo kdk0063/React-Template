@@ -1,0 +1,36 @@
+/* .row{
+	margin-left: 75px;
+} */
+.projects {
+  /* flip the pane when hovered */
+  /* flip speed goes here */
+  /* hide back of pane during swap */
+  /* back, initially hidden pane */ }
+  .projects .cards {
+    margin: 50px auto;
+    perspective: 500px; }
+  .projects .flip-container:hover .flipper {
+    transform: rotateY(180deg); }
+  .projects .flip-container,
+  .projects .front,
+  .projects .back,
+  .projects .flipper {
+    width: 300px;
+    height: 250px; }
+  .projects .flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    background-color: #fff; }
+  .projects .front,
+  .projects .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16); }
+  .projects .back {
+    transform: rotateY(180deg); }
+  .projects .card-img-top {
+    height: 60px;
+    width: 60px !important; }
