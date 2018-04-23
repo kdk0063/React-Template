@@ -8,11 +8,10 @@ class Navi extends Component {
         return (
             <div>              
                 <nav className="navbar navbar-expand-lg navbar-light">
-                    <Link className="logo" to="/home">
-                        AK
+                    <Link className="navbar-brand" to="/home">
+                        ANDREW KIM
                     </Link>
-                    <button
-                        className="navbar-toggler"
+                    <button className="navbar-toggler"
                         type="button"
                         data-toggle="collapse"
                         data-target="#navbarNavAltMarkup"
@@ -48,3 +47,4 @@ class Navi extends Component {
 export default Navi;
 
 // ... look up negative route
+// https://stackoverflow.com/questions/38717770/twitter-bootstrap-navbar-hover-effect-transition-border-expand-from-center?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa

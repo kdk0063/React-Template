@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Navi from './Navbar';
 import '../css/projects.css'
 
 import {Link} from 'react-router-dom';
@@ -8,8 +7,7 @@ class Projects extends Component {
 
     render(){
         return(
-            <div className='projects'>
-                <Navi />        
+            <div className='projects'>               
                 <div className='row'>            
                     <div className="cards col-xs-4 flip-container">
                         <div className="flipper gotsole">

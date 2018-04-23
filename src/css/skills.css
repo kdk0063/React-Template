@@ -20,6 +20,11 @@
 .skills .bootsrap path {
   fill: #5b4282; }
 
+.skills .sql-icons {
+  height: 50px;
+  margin-left: 25px;
+  margin-right: 23px; }
+
 .skills .frontend-skills {
   margin-bottom: 20px; }
 

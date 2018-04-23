@@ -29,24 +29,28 @@ class Intro extends Component{
     };
 
     render() {
-        return (   
-            <Link to='/home'>  
-            <div className='bodyclick'>                
-                <ul ref={this.acceptref} className='fly-in-text'>
-                    <li>G</li>
-                    <li>R</li>
-                    <li>E</li>
-                    <li>A</li>
-                    <li>T</li>
-                    <li>N</li>
-                    <li>E</li>
-                    <li>S</li>
-                    <li>S</li>
-                </ul>                      
-                <div className='blinking-text'>Click to Enter</div>                            
+        return (               
+            <div>
+                <Link to='/home'>  
 
-            </div>     
-            </Link>     
+                <div className='bodyclick'>                
+                    <ul ref={this.acceptref} className='fly-in-text'>
+                        <li>G</li>
+                        <li>R</li>
+                        <li>E</li>
+                        <li>A</li>
+                        <li>T</li>
+                        <li>N</li>
+                        <li>E</li>
+                        <li>S</li>
+                        <li>S</li>
+                    </ul>    
+
+                     <div className='blinking-text click'>Click To Enter</div>                                                                                
+                </div>    
+
+                </Link>   
+            </div>               
         );
     }
 }
