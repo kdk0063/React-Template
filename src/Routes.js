@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 // import GotSole from './components/GotSole';
+import Photos from './components/Photos';
 
 class Routes extends Component {
     render() {
@@ -19,6 +20,7 @@ class Routes extends Component {
                     <Route exact path='/skills' component={Skills}/>
                     <Route exact path='/contact' component={Contact}/> 
                     {/* <Route exact path='/gotsole' component={GotSole} />        */}
+                    <Route exact path='/photos' component={Photos}/> 
                 </Switch> 
             </div>
         )
