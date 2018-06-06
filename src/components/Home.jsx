@@ -34,8 +34,7 @@ class Home extends Component {
                             <li>
                                 Built custom stored procedures to extract, update, and compile over 30,000 datasets for Ista North America
                             </li>
-                        </ul>    
-            
+                        </ul>                
                     </div>
                     
                     <div className="row">
@@ -62,11 +61,11 @@ class Home extends Component {
                             <br />
                             <strong>Where I see myself in 5 years:</strong>
                             <div className="profile-contents"> 
-                                Happily engaged in projects that excite me, working among smart and supportive people, sticking with my daily exercise routine and still learning new things
+                                Happily engaged in projects that excite me, working among smart and supportive people, and still learning new things
                             </div>
                         </div>                       
                     </div>
-
+                    <br/>
                    <p>
                     Want to check my full resume? <a href="">Download it here</a>
                     </p>       
@@ -122,12 +121,12 @@ class Home extends Component {
                 <section className="section section-light">
                     <h2 className="text-align-center">CONTACT</h2>                     
                     <p>
-                        Let's run the dance floor, talk stage design, draft an idea on Sketch, and belt 90s R&B jams.                           
+                        Let's run the dance floor, talk new design, draft an idea on Sketch, and belt 90s R&B jams.            
                     </p>
 
-                    <div className="">
-                        
-                    </div>
+                    {/* <div className="">
+                        include more?? hmmph 
+                    </div> */}
                         <br />
                     <button type="button" className="email btn btn-outline-dark" data-toggle="modal" data-target="#email-me">>
                         Send me an email !
@@ -145,7 +144,7 @@ class Home extends Component {
                                 </div>
                                 <div className="modal-footer">
                                     <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" className="btn btn-primary">Save changes</button>
+                                    <button type="button" className="btn btn-primary">Send</button>
                                 </div>
                             </div>
                         </div>
