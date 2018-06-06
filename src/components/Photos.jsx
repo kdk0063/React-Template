@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
 
 const photos = [
@@ -13,7 +13,7 @@ const photos = [
   { src: 'https://source.unsplash.com/I1ASdgphUH4/800x599', width: 4, height: 3 }
 ];
 
-class Photos extends React.Component {
+class Photos extends Component {
   render() {
     return (
       <Gallery photos={photos} />
