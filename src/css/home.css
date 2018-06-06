@@ -25,12 +25,8 @@
   padding: 50px 80px; }
 
 .section-light {
-  background-color: #f4f4f4;
+  background-color: #fff;
   color: #666; }
-
-.section-dark {
-  background-color: #282e34;
-  color: #ddd; }
 
 .ptext {
   position: absolute;
@@ -57,7 +53,38 @@
 
 .dancing-icons {
   height: 36px;
+  width: 45px;
   margin-top: 40px; }
 
 .profile-contents {
   margin-top: 20px; }
+
+a.lettering {
+  color: #9b7d81; }
+
+a.lettering:hover {
+  color: #9b7d81;
+  border-bottom: 0.5px solid #9b7d81; }
+
+.email {
+  font-family: "Source Sans Pro",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 12px;
+  border-width: 2px; }
+
+.modal-header,
+.modal-footer {
+  border-bottom: none;
+  border-top: none; }
+
+.PastExp {
+  text-align: left; }
+
+.PastExp li {
+  margin-left: 30px;
+  margin-bottom: 10px; }
+
+h2 {
+  margin-bottom: 20px; }

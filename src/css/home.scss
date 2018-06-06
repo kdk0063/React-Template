@@ -31,13 +31,8 @@
 }
 
 .section-light {
-  background-color: #f4f4f4;
+  background-color:#fff;
   color: #666;
-}
-
-.section-dark {
-  background-color: #282e34;
-  color: #ddd;
 }
 
 .ptext {
@@ -69,9 +64,47 @@
 
 .dancing-icons{
   height: 36px;
+  width: 45px;
   margin-top: 40px;
 }
 
 .profile-contents{
   margin-top: 20px;
+}
+
+a.lettering{
+  color:rgb(155, 125, 129);
+}
+
+a.lettering:hover{
+  color: rgb(155, 125, 129);
+  border-bottom: 0.5px solid rgb(155, 125, 129); 
+}
+
+.email{
+  font-family: "Source Sans Pro",sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 12px;
+  border-width: 2px;
+}
+
+.modal-header,
+.modal-footer{
+  border-bottom: none;
+  border-top: none;
+}
+
+.PastExp{
+  text-align: left;
+}
+
+.PastExp li{
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+h2{
+  margin-bottom: 20px;
 }
