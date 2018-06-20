@@ -1,3 +1,6 @@
+.navv {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5); }
+
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:hover {
   color: #9b7d81;

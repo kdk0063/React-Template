@@ -6,7 +6,7 @@ class Navi extends Component {
 
     render() {
         return (
-            <div>              
+            <div className="navv">              
                 <nav className="navbar navbar-expand-lg navbar-light">
                     <Link className="navbar-brand" to="/home">
                         ANDREW KIM
@@ -36,9 +36,9 @@ class Navi extends Component {
                             <Link className="nav-item navlinks" to='/photos'>
                                 Photos
                             </Link>
-                            <a className="nav-item navlinks" href='contact'>
+                            {/* <a className="nav-item navlinks" href='contact'>
                                 CONTACT
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                 </nav>

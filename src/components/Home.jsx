@@ -1,9 +1,17 @@
 import React, {Component} from 'react';
-import '../css/home.css'
-// import $ from 'jquery';
+import '../css/home.css';
+import $ from 'jquery';
 
 class Home extends Component {
 
+    window.sr = ScrollReveal();
+    sr.revela('.nvarbar'), {
+        duration: 2000, 
+        origin: 'bottom';
+    })
+    
+    
+    
     render() {
         return (
             <div>
@@ -18,12 +26,12 @@ class Home extends Component {
 
                 <section className="section section-light">
                     <div className="col sqs-col-6">
-                        <h2>EXPERIENCE</h2>
-                        <p>
+                        <h2 className="ExpTitle">EXPERIENCE</h2>
+                        <p className="ExpBody">
                             After graduation, I was fortunate to have different work experience in different industries, I worked during 4 years:
                         </p>                        
 
-                        <ul className="PastExp"> 
+                        <ul className="ExpPast"> 
                             <li> 
                                 Worked as a .NET Fullstack Developer for startup Babel Dabble in Culver City, CA
                             </li>
@@ -99,7 +107,7 @@ class Home extends Component {
                             <div className="profile-contents"> 
                                 Breakdancing(b-boying) and practicing hand letterting to feel energized and relaxed
                                 <br/>
-                                Check my hand <a className="lettering" href=""> lettering.</a>
+                                Check my hand <a className="lettering"  target="_bank" href="https://www.instagram.com/koffeenpen/"> lettering.</a>
                             </div>
                         </div>
 
