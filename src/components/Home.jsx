@@ -1,17 +1,9 @@
 import React, {Component} from 'react';
 import '../css/home.css';
-import $ from 'jquery';
+import sr from './ScrollReveal'
 
 class Home extends Component {
 
-    window.sr = ScrollReveal();
-    sr.revela('.nvarbar'), {
-        duration: 2000, 
-        origin: 'bottom';
-    })
-    
-    
-    
     render() {
         return (
             <div>
@@ -167,3 +159,4 @@ class Home extends Component {
     }
 }
 export default Home;
+
