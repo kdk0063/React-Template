@@ -3,11 +3,11 @@ import '../css/skills.css';
 
 class Skills extends Component {
     render() {
-        return (
-            <div>                
-                <div className="container">
-                    <div className="skills">
-                        <div className="row">
+        return (            
+            // <div className="container">
+                <div className="skills">
+                    <section id="front">                        
+                        <div className="row">                        
                             <div className="card col-xs-4">
                                 <div className="card-body">
                                     <h5 className="card-title">FRONT END</h5>
@@ -196,7 +196,11 @@ class Skills extends Component {
 
                                 </div>
                             </div>
-
+                        </div>
+                    </section>
+                                            
+                    <section id="middle">
+                        <div className="row">                      
                             <div className="card col-xs-4">
                                 <div className="card-body">
                                     <h5 className="card-title">MIDDLE TIER</h5>
@@ -296,7 +300,11 @@ class Skills extends Component {
 
                                 </div>
                             </div>
+                        </div>
+                    </section>
 
+                    <section id="back">
+                        <div className="row">       
                             <div className="card col-xs-4">
                                 <div className="card-body">
                                     <h5 className="card-title">BACK END</h5>
@@ -383,12 +391,10 @@ class Skills extends Component {
                                     </div>
 
                                 </div>
-                            </div>
+                            </div>                        
                         </div>
-                    </div>
-                </div>
-            </div>
-
+                    </section>
+                </div>        
         )
     }
 }

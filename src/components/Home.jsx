@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import '../css/home.css'
+import '../css/home.css';
+import sr from './ScrollReveal'
 
 class Home extends Component {
 
     render() {
         return (
             <div>
+                
                 <div className="bg1">                    
                     <div className="ptext">
                         {/* <span className="border trans">
@@ -16,14 +18,14 @@ class Home extends Component {
 
                 <section className="section section-light">
                     <div className="col sqs-col-6">
-                        <h2>EXPERIENCE</h2>
-                        <p>
+                        <h2 className="ExpTitle">EXPERIENCE</h2>
+                        <p className="ExpBody">
                             After graduation, I was fortunate to have different work experience in different industries, I worked during 4 years:
                         </p>                        
 
-                        <ul className="PastExp"> 
+                        <ul className="ExpPast"> 
                             <li> 
-                                Worked as a .NET Fullstack Developer for startup Babel Dabble in Culver City, CA                              
+                                Worked as a .NET Fullstack Developer for startup Babel Dabble in Culver City, CA
                             </li>
                             <li>
                                 Performed financial analysis of over 120 loan portfolio for Pacific City Bank
@@ -34,8 +36,7 @@ class Home extends Component {
                             <li>
                                 Built custom stored procedures to extract, update, and compile over 30,000 datasets for Ista North America
                             </li>
-                        </ul>    
-            
+                        </ul>                
                     </div>
                     
                     <div className="row">
@@ -62,13 +63,14 @@ class Home extends Component {
                             <br />
                             <strong>Where I see myself in 5 years:</strong>
                             <div className="profile-contents"> 
-                                Happily engaged in projects that excite me, working among smart and supportive people, sticking with my daily exercise routine and still learning new things
+                                Happily engaged in projects that excite me, working among smart and supportive people, and still learning new things
                             </div>
                         </div>                       
                     </div>
-
+                    <br/>
                    <p>
-                    Want to check my full resume? <a href="">Download it here</a>
+                    Want to check my full resume?
+                    <a className="resume" href="">Download it here</a>
                     </p>       
                 </section>
 
@@ -97,7 +99,7 @@ class Home extends Component {
                             <div className="profile-contents"> 
                                 Breakdancing(b-boying) and practicing hand letterting to feel energized and relaxed
                                 <br/>
-                                Check my hand lettering.
+                                Check my hand <a className="lettering"  target="_bank" href="https://www.instagram.com/koffeenpen/"> lettering.</a>
                             </div>
                         </div>
 
@@ -111,29 +113,29 @@ class Home extends Component {
 
                 </section>
 
-                <div className="bg3">
+                {/* <div className="bg3">
                     <div className="ptext">
-                        {/* <span className="border trans">
+                        <span className="border trans">
                             SEOUL CITY
-                        </span> */}
+                        </span>
                     </div>
-                </div>
+                </div> */}
 
-                <section className="section section-light">
-                    <h2 className="text-align-center">CONTACT</h2>                     
-                    <p>
-                        Let's run the dance floor, talk stage design, draft an idea on Sketch, and belt 90s R&B jams.                           
-                    </p>
-
-                    <div className="">
-                        
+                <section id='contact' className="section section-light">
+                    <div className='contactbody'>
+                        <h2>CONTACT</h2>
+                        <p>
+                            Let's run the dance floor, talk new design, draft an idea on Sketch, and belt 90s R&B jams.
+                        </p>
                     </div>
-                        <br />
-                    <button type="button" className="email btn btn-outline-dark" data-toggle="modal" data-target="#email-me">>
-                        Send me an email !
-                    </button>
+                    <br />
+                    <div className='contactBtn'>
+                        <button type="button" className="email btn btn-outline-dark" data-toggle="modal" data-target="#email-me">>
+                            Send me an email !
+                        </button>
+                    </div>
 
-                    <div className="modal fade" id="email-me" >
+                    <div id="email-me" className="modal fade">
                         <div className="modal-dialog" role="document">
                             <div className="modal-content">
                                 <div className="modal-header">
@@ -145,15 +147,16 @@ class Home extends Component {
                                 </div>
                                 <div className="modal-footer">
                                     <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                                    <button type="button" className="btn btn-primary">Save changes</button>
+                                    <button type="button" className="btn btn-primary">Send</button>
                                 </div>
                             </div>
                         </div>
-                    </div>                                        
-                </section>
+                    </div>                                         
+                </section>    
 
             </div>
         );
     }
 }
 export default Home;
+

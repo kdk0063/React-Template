@@ -10,15 +10,11 @@
 
 .bg1 {
   background-image: url("./img/image1.jpg");
-  min-height: 700px; }
+  min-height: 650px; }
 
 .bg2 {
-  background-image: url("./img/image2.jpg");
-  min-height: 550px; }
-
-.bg3 {
-  background-image: url("./img/Seoul.jpg");
-  min-height: 550px; }
+  background-image: url("./img/bg7.jpg");
+  min-height: 450px; }
 
 .section {
   text-align: center;
@@ -79,12 +75,29 @@ a.lettering:hover {
   border-bottom: none;
   border-top: none; }
 
-.PastExp {
+.ExpPast {
   text-align: left; }
 
-.PastExp li {
+.ExpPast li {
   margin-left: 30px;
   margin-bottom: 10px; }
 
 h2 {
-  margin-bottom: 20px; }
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-align: center; }
+
+a.resume {
+  margin-left: 5px;
+  color: #9b7d81; }
+
+a.resume:hover {
+  color: #9b7d81;
+  border-bottom: 0.5px solid #9b7d81; }
+
+#contact {
+  background-image: url("./img/bg8.jpg");
+  min-height: 400px;
+  min-width: 50px;
+  background-size: cover;
+  color: #fff; }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Gallery from 'react-photo-gallery';
+import '../css/photos.css';
 
 const photos = [
   { src: 'https://source.unsplash.com/2ShvY8Lf6l0/800x599', width: 4, height: 3 },
@@ -16,7 +17,11 @@ const photos = [
 class Photos extends Component {
   render() {
     return (
-      <Gallery photos={photos} />
+      <div className="PhotosPage">
+        <div className="container photos">
+          <Gallery photos={photos} />
+        </div>
+      </div>
     )
   }
 }
