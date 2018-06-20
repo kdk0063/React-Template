@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import '../css/home.css'
+// import $ from 'jquery';
 
 class Home extends Component {
 
     render() {
         return (
             <div>
+                
                 <div className="bg1">                    
                     <div className="ptext">
                         {/* <span className="border trans">
@@ -23,7 +25,7 @@ class Home extends Component {
 
                         <ul className="PastExp"> 
                             <li> 
-                                Worked as a .NET Fullstack Developer for startup Babel Dabble in Culver City, CA                              
+                                Worked as a .NET Fullstack Developer for startup Babel Dabble in Culver City, CA
                             </li>
                             <li>
                                 Performed financial analysis of over 120 loan portfolio for Pacific City Bank
@@ -67,7 +69,8 @@ class Home extends Component {
                     </div>
                     <br/>
                    <p>
-                    Want to check my full resume? <a href="">Download it here</a>
+                    Want to check my full resume?
+                    <a className="resume" href="">Download it here</a>
                     </p>       
                 </section>
 
@@ -96,7 +99,7 @@ class Home extends Component {
                             <div className="profile-contents"> 
                                 Breakdancing(b-boying) and practicing hand letterting to feel energized and relaxed
                                 <br/>
-                                Check my hand lettering.
+                                Check my hand <a className="lettering" href=""> lettering.</a>
                             </div>
                         </div>
 
@@ -110,29 +113,29 @@ class Home extends Component {
 
                 </section>
 
-                <div className="bg3">
+                {/* <div className="bg3">
                     <div className="ptext">
-                        {/* <span className="border trans">
+                        <span className="border trans">
                             SEOUL CITY
-                        </span> */}
+                        </span>
                     </div>
-                </div>
+                </div> */}
 
-                <section className="section section-light">
-                    <h2 className="text-align-center">CONTACT</h2>                     
-                    <p>
-                        Let's run the dance floor, talk new design, draft an idea on Sketch, and belt 90s R&B jams.            
-                    </p>
+                <section id='contact' className="section section-light">
+                    <div className='contactbody'>
+                        <h2>CONTACT</h2>
+                        <p>
+                            Let's run the dance floor, talk new design, draft an idea on Sketch, and belt 90s R&B jams.
+                        </p>
+                    </div>
+                    <br />
+                    <div className='contactBtn'>
+                        <button type="button" className="email btn btn-outline-dark" data-toggle="modal" data-target="#email-me">>
+                            Send me an email !
+                        </button>
+                    </div>
 
-                    {/* <div className="">
-                        include more?? hmmph 
-                    </div> */}
-                        <br />
-                    <button type="button" className="email btn btn-outline-dark" data-toggle="modal" data-target="#email-me">>
-                        Send me an email !
-                    </button>
-
-                    <div className="modal fade" id="email-me" >
+                    <div id="email-me" className="modal fade">
                         <div className="modal-dialog" role="document">
                             <div className="modal-content">
                                 <div className="modal-header">
@@ -148,8 +151,8 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                    </div>                                        
-                </section>
+                    </div>                                         
+                </section>    
 
             </div>
         );

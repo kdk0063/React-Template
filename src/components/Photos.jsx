@@ -16,7 +16,9 @@ const photos = [
 class Photos extends Component {
   render() {
     return (
-      <Gallery photos={photos} />
+      <div className="container">
+        <Gallery photos={photos} />
+      </div>
     )
   }
 }

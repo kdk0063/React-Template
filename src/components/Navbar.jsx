@@ -36,9 +36,9 @@ class Navi extends Component {
                             <Link className="nav-item navlinks" to='/photos'>
                                 Photos
                             </Link>
-                            <Link className="nav-item navlinks" to='/contact'>
+                            <a className="nav-item navlinks" href='contact'>
                                 CONTACT
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </nav>

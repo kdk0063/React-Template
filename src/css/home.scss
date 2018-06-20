@@ -12,16 +12,11 @@
 
 .bg1 {
   background-image: url('./img/image1.jpg');
-  min-height: 700px;
+  min-height: 650px;
 }
 
 .bg2 {
-  background-image: url('./img/image2.jpg');
-  min-height: 550px;
-}
-
-.bg3 {
-  background-image: url('./img/Seoul.jpg');
+  background-image: url('./img/bg7.jpg');
   min-height: 550px;
 }
 
@@ -106,5 +101,25 @@ a.lettering:hover{
 }
 
 h2{
-  margin-bottom: 20px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+a.resume{
+  margin-left: 5px;
+  color:rgb(155, 125, 129);
+}
+
+a.resume:hover{
+  color: rgb(155, 125, 129);
+  border-bottom: 0.5px solid rgb(155, 125, 129); 
+}
+
+#contact{
+  background-image: url('./img/bg8.jpg');
+  min-height: 400px;
+  min-width: 50px;
+  background-size: cover;                    
+  color:#fff;
 }
