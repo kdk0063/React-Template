@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../css/home.css';
-import sr from './ScrollReveal'
 
 class Home extends Component {
 

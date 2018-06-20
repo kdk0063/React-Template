@@ -1,32 +1,28 @@
 // import React, {Component} from 'react';
 // import $ from 'jquery';
-// import Navi from './Navbar';
 // import '../css/jays.css'
-// import * as ProjService from '../services/proj-services';
+// // import * as ProjService from '../services/proj-services';
 
-// import {Link} from 'react-router-dom';
 
 // class GotSole extends Component {
 //     state = {
 //         jordans: []
 //     }
 
-//     componentDidMount() {
-//         ProjService
-//             .getAll()
-//             .then(resp => {
-//                 this.setState({jordans: resp.data})
-//                 console.log('data', resp.data)
-//             }, err => {
-//                 alert('Failed to get all')
-//             });    
-//     }
+//     // componentDidMount() {
+//     //     ProjService
+//     //         .getAll()
+//     //         .then(resp => {
+//     //             this.setState({jordans: resp.data})
+//     //             console.log('data', resp.data)
+//     //         }, err => {
+//     //             alert('Failed to get all')
+//     //         });    
+//     // }
 
-//     render() {
-//         return (
+//    render() {
+//        return (
 //             <div>
-//             <Navi />
-
 //                 <div className='splits'>
 //                     {this.state.jordans.map((item) => 
 //                         <React.Fragment key={item.id}>                                                                                                     
@@ -48,7 +44,7 @@
 //                             <div className='left'>
 //                                 {
 //                                     (item.id % 2 == 0) &&
-//                                     <section className='section-light'>
+//                                     <section cslassName='section-light'>
 //                                         <img src={item.img}/>
 //                                     </section>     
 //                                 }
@@ -83,3 +79,4 @@
 //     }
 // }
 // export default GotSole;
+
