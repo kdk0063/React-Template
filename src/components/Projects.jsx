@@ -7,7 +7,41 @@ class Projects extends Component {
 
     render(){
         return(
-            <div className='projects'>               
+            <div className='projects'>   
+
+                <div id="particle-container">
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                    <div className="particle"></div>
+                </div>
+
                 <div className='row'>            
                     <div className="cards col-xs-4 flip-container">
                         <div className="flipper gotsole">

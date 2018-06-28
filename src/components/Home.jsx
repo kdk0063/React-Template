@@ -6,7 +6,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                
+            
                 <div className="bg1">                    
                     <div className="ptext">
                         {/* <span className="border trans">
